@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trabalho Faci</title>
+
+    <!-- font awesome cdn link  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+    <!-- custom css file link  -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="header">
+    <table width="100%">
+        <tr>
+            <td><a href="index.html" class="logo"><img src="image/logo-faci.png"></a></td>
+        
+            <td>
+                <nav class="navbar">
+                    <a href="index.html">Home</a>
+                    <a href="cadastro.html">Cadastro</a>
+                    <a href="veterinarios.html">Veterinários</a>
+                    <a href="produtos.html">Produtos</a>
+                    <a href="sobre.html">Sobre</a>
+                </nav>
+            </td>
+            <td>
+                <div class="icons">
+                    <div class="fas fa-bars" id="menu-btn"></div>
+                    <a href="#" class="fas fa-shopping-cart"></a>
+                    <div class="fas fa-user" id="login-btn"></div>
+                </div>
+            </td>
+        </tr>
+    </table >
+    </header>
+    <div id="vet">
+        <section class="about" id="about">
+            <div class="content">
+                <h3>Faça seu cadastro e do seu pet <span>Aqui</span></h3>
+                    <form>
+                        Nome:<br>
+                        <input type="text" name="nome" size="80px"><br>
+                        Usuário:<br>
+                        <input type="text" name="nome"><br>
+                        Senha:<br>
+                        <input type="password" name="senha"><br>
+                        <hr>
+                        Genero:<br>
+                        <input type="radio" name="genero">Masculino<br>
+                        <input type="radio" name="genero">Feminino<br>
+                        <hr>
+                        Cidade:<br>
+                        <select name="cidade">
+                            <option value="Ananindeua">Ananindeua</option>
+                            <option value="belem">Belém</option>
+                            <option value="castanhal">Castanhal</option>
+                            <option value="marituba">Marituba</option>
+                            <option value="santa maria">Santa Maria</option>
+                        </select>
+                        <hr>
+                    </form>
+                    <form>
+                        Nome do pet:<br>
+                        <input type="text" name="nomepet" size="80px"><br>
+                        Dt. Nasc. do pet:<br>
+                        <input type="text" name="dtnasc" placeholder="dd/mm/aaaa"><br>
+                        <hr>
+                        Tipo do pet:<br>
+                        <select name="tipopet">
+                            <option value="gato">Gato</option>
+                            <option value="cachorro">Cachorro</option>
+                            <option value="coelho">Coelho</option>
+                            <option value="cobra">Cobra</option>
+                            <option value="hamster">Hamster</option>
+                        </select>
+                        <br>
+                        <hr>
+                        <br>Raça do pet:<br>
+                        <input type="text" name="raca"><br>
+                        <hr>
+                        Gênero:<br>
+                        <input type="radio" name="genero">Macho<br>
+                        <input type="radio" name="genero">Fêmea<br>
+                        <hr>
+                        Porte do pet:<br>
+                        <input type="radio" name="porte">Pequeno<br>
+                        <input type="radio" name="porte">Médio<br>
+                        <input type="radio" name="porte">Grande<br>
+                        <hr>
+                        <hr>
+                        <a href="#" class="btn">Cadastrar</a><br>
+                    </form>
+            </div>
+        </section>
+    </div>
+    <div id="rodape">
+        <span>&copy; Copyright 2022 petshop.com - Trabalho de Desenvolvimento Web</span>
+    </div>
+</body>
+</html>
